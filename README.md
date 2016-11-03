@@ -1,4 +1,2 @@
-# Developer_Project
-touch Scottccoy_homepage.html
-# Developer_Project
-touch secondpage.html
+# My Personal Website
+https://developer-project-scottcoydog.c9users.io/HTML/Scottccoy_homepage.html
