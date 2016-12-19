@@ -1,67 +1,118 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML!>
 <html>
-<nav id="nav-wrap" class="" style="display: block;">
-    <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-    <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-    <ul id="nav" class="nav">
-        <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-        <li class=""><a class="smoothscroll" href="#about">About</a></li>
-        <li class=""><a class="smoothscroll" href="#resume">Resume</a></li>
-        <li><a class="smoothscroll" href="#contact">Contact</a></li>
-    </ul>
-</nav>
+<style>
+    .container {
+        position: relative;
+        width: 1260px;
+    }
+    
+    .column-left {
+        margin: 0;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .column-center {
+        width: 40%;
+        left: 0;
+        position: relative;
+        background: #999;
+    }
+    
+    .column-right {
+        width: 20%;
+        left: 0;
+        position: relative;
+        background: #999;
+    }
+    
+    panel {
+        border: 3px solid #d8d8d8;
+        border-radius: 3px;
+        background-color: #789f90;
+        text-align: left;
+        position: relative;
+        float: left;
+        padding-bottom: 50px;
+        padding: 5px;
+        overflow-x: hidden;
+    }
+    
+    panel1 {
+        border: 3px solid #d8d8d8;
+        border-radius: 3px;
+        background-color: #003865;
+        text-align: left;
+        position: relative;
+        padding-bottom: 50px;
+        padding: 5px;
+        overflow-x: hidden;
+    }
+    
+    panel2 {
+        border: 3px solid #d8d8d8;
+        border-radius: 3px;
+        background-color: #CD545B;
+        text-align: left;
+        position: relative;
+        float: right;
+        padding-bottom: 50px;
+        padding: 5px;
+        overflow-x: hidden;
+    }
+    
+    body {
+        width: 100%;
+        height: 100%;
+        font-size: 16px;
+        vertical-align: absolute;
+        line-height: 1.56;
+    }
+    
+    .row {
+        -webkit-column-span: all;
+        /* Chrome, Safari, Opera */
+        column-span: all;
+    }
+    
+    .panel-interior {
+        padding: 25px;
+        margin-bottom: 80px;
+    }
+</style>
 
-<head>
-    <style>
-        body {
-            background: url("https://developer-project-scottcoydog.c9users.io/images/green_hall.jpg") no-repeat top center fixed;
-            background-size: cover;
-            margin: 10;
-            padding: 0;
-            height: 120%;
-            width: 98%;
-            opacity: 3;
-        }
-        
-        body {
-            font-family: "calibri";
-            font-size: 14px;
-            font-style: normal;
-            font-variant: normal;
-            font-weight: 500;
-            line-height: 26.4px;
-        }
-    </style>
+<div class="container">
 
     <body>
-        <div style="background-color:gray;color:white;padding:4px;">
-            <div style="background-color:lightgreen;padding:2px">
-                <h2>Professional Experience</h2>
-                <div style="background-color:lightgray;padding:12px">
-                    <h3>Business Development Consultant II - Digital Agency Services | Rackspace Hosting | May 2016 - Present | Austin, TX</h3>
-                    <p4>Cultivate and grow relationships with national media agencies in order to deliver Rackspace Hosting solutions</p4>
-                    <p4>Sell in hardware, hosting, and support solutions using the Rackspace Hosting suite of offerings</p4>
+        <div class="column-left">
+            <div class="column">
+                <div class="row panel-row">
+                    <h2 class="text-center">SAP Saved $250,000 in 10 Days</h2>
+                    <h3 class="text-center">Technology</h3>
                 </div>
-                <div style="background-color:lightgreen;padding:12px">
-                    <h3>Senior Agency Account Manager | Clear Channel Outdoor | August 2013 - Feb 2016 | London, UK</h3>
-                    <p5>Cultivated and grew relationships with national media agencies in order to drive client briefs</p5>
-                    <p5>Sold in digital and static Out-of-Home advertising solutions across multiple stakeholders along the value chain; including national clients, agencies, and specialists</p5>
-                    <p5>Created, developed, and marketed new products within existing portfolio to drive incremental revenue of £700,000</p5>
-                    <p5>2015 Gross revenue of £13,015,000. 2014 to 2015 YOY revenue growth of 110%</p5>
-                    <p5>2014 Gross revenue of £1,800,000. 2013 to 2014 YOY revenue growth of 124%</p5>
-                    <p5>Managed an internal sales executive and led Salesforce implementation into Sales & Marketing teams</p5>
-                </div>
-                <h3>Integrated Account Manager | iHeartmedia | January 2011 - June 2013 | Austin, TX</h3>
-                Developed and closed strategic advertising campaigns for Key clients using integrated assets including; digital components, iHeartradio Platform, SMS texting, on-site event marketing, and broadcast radio Managed advertising agency relationships and grew
-                revenue within accounts Achieved 59% compound annual revenue growth rate from 2008 to 2012 Assembled 3rd party research and other qualitative information in effort to develop compelling market intelligence for use within Sales and marketing
-                departments Managed a Key Account Coordinator Political Advertising Category Team Lead for 2012 U.S., State, and local elections Account Executive | Clear Channel Media + Entertainment | January 2008 - January 2011 | Austin, TX Prospected
-                and defined client marketing objectives in order to create long-term marketing solutions. Created and implemented radio marketing solutions for new and existing clients using the tools and resources of six FM/AM radio stations. Managed
-                client campaign effectiveness in order to continually maximize advertising ROI and ensure renewals Leadership Experience Key Account Coordinator Program, 2011-2013 Effectively managed and delineated tasks to a “Key Account Coordinator”
-                (KAC) in order to maximize personal selling time and hand off administrative internal tasks Mentored and helped train KAC regarding market research, administrative tasks, sales techniques, etc. 2012 Political Advertising Team Lead Managed
-                incoming leads and directed prospecting and closing efforts for political advertising inquiries initiatives during the 2012 Primary and General elections, including National, State, and Local races and elections Education & additional
-                Belmont University, Nashville, TN | B.B.A: Music Business | 2004-2007 | Overall GPA: 3.48 Recognized by Clear Channel Media + Entertainment as a “Monthly Seller” 12 times from 2010-2013 Microsoft Office Suite, QuickBooks, Salesforce
             </div>
+        </div>
+
+        <section class="column-center">
+            <div class="container-center">
+                <div class="column">
+                    <div class="row panel-row">
+                        <h2 class="text-center">SAP Saved $250,000 in 10 Days</h2>
+                        <h3 class="text-center">Technology</h3>
+                    </div>
+                </div>
+            </div>
+            <section class="column-right">
+                <div class="container-right">
+                    <div class="column">
+                        <div class="row panel-row">
+                            <h2 class="text-center">SAP Saved $250,000 in 10 Days</h2>
+                            <h3 class="text-center">Technology</h3>
+                        </div>
+                    </div>
+                </div>
     </body>
-</head>
 
 </html>
